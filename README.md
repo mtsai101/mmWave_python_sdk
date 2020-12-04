@@ -1,5 +1,7 @@
 # IWR1443 Read Data (Python 3)
 
+My HackMD: https://hackmd.io/@jd-gp74OTbmxVvsjMXZwGQ/HJhiGNtJD
+
 Python program to read and plot the data in real time from the **AWR1443** and **IWR1443** mmWave radar boards (Texas Instruments). The program has been tested with Windows and Raspberry Pi and is based on the Matlab demo from Texas Instruments.
 
 First, the program configures the Serial ports and sends the CLI commands defined in the configuration file to the radar. Next, the data comming from the radar is parsed to extract the 2D position, range and doppler velocity of the reflected points. Finally, the 2D position of the reflected points is shown in a scatter plot.
